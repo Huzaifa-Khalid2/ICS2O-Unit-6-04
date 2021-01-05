@@ -1,8 +1,8 @@
 document.getElementById('my-btn').addEventListener('click', myFunction)
 function myFunction () {
-   let age = document.getElementById('my-text').value
+  let age = document.getElementById('my-text').value
   age = parseInt(age)
-   let day = document.getElementById('my-text2').value
+  let day = document.getElementById('my-text2').value
   day = parseInt(day)
   if ((day === 'monday' || day === 'wednesday') || (age > 14 && age < 30)) {
     alert('You can come in the museam!')
